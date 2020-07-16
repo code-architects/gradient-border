@@ -1,0 +1,30 @@
+body{
+    background: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    background: black;
+}
+.gradient {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background: linear-gradient(to right, red, yellow, purple , green);
+}
+p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    font-family: Arial;
+}
